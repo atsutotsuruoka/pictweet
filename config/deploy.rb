@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "pictweet"
-set :repo_url, "git@example.atsutotsuruoka/pictweet.git"
+set :repo_url, "git@github.com:atsutotsuruoka/pictweet.git"
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 
